@@ -1,0 +1,64 @@
+/* global properties */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+/* variables */
+:root {
+  --main-clr: #00adb5;
+  --second-clr: #222831;
+  --third-clr: #393e46;
+  --fouth-clr: #eeeeee;
+  --sec-title-size: 70px;
+  --main-font: "Poppins", sans-serif;
+  --title-font: "Playball", cursive;
+}
+/* common elements */
+a {
+  text-decoration: none;
+  color: #000;
+}
+::selection {
+  background-color: var(--fouth-clr);
+  color: #fff;
+}
+.container {
+  margin: auto;
+  position: relative;
+}
+@media (min-width: 525px) {
+  .container {
+    width: 525px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (min-width: 1024px) {
+  .container {
+    width: 990px;
+  }
+}
+body {
+  min-height: 100vh;
+  font-family: var(--main-font);
+}
+/* start header */
+/* end header */
+/* start footer */
+footer {
+  text-align: center;
+  background-color: var(--fouth-clr);
+  color: #fff;
+  padding: 20px 0;
+}
+footer span {
+  color: #000;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+/* end footer */
